@@ -9,6 +9,35 @@
     max-height: 300px;
 }
 
+.introduce_card_side_bar {
+    width: .4%;
+    height: 130px;
+    z-index: 999;
+    margin: 70px 50px 0px;
+    background-color: #121212;
+}
+
+.introduce_card_main {
+    margin-top: 70px;
+    font-size: 12px;
+    height: 70%;
+}
+
+.introduce_card_main_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.introduce_card_main_title  > li > h1 {
+    font-size: 1.5rem;
+    letter-spacing: 7px;
+}
+
+.introduce_card_main_body {
+    
+}
+
 
 /* .introduce_card_image > img {
     width: 50%;
