@@ -1,12 +1,13 @@
 .introduce_card {
     display: flex;
-    border: solid 1px #000;
+    border: solid 1px #e4e7e9;
     width: 30%;
-    max-width: 550px;
-    min-width: 550px;
+    max-width: 500px;
+    min-width: 400px;
     height: 10%;
     min-height: 215px;
     max-height: 300px;
+    position: relative;
 }
 
 .introduce_card_side_bar {
@@ -25,8 +26,7 @@
 
 .introduce_card_main_title {
     display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 14.1px;
 }
 
 .introduce_card_main_title  > li > h1 {
@@ -34,15 +34,14 @@
     letter-spacing: 7px;
 }
 
-.introduce_card_main_body {
-    
+.introduce_card_main_body > ul > li {
+    line-height: 24px;
 }
 
 
-/* .introduce_card_image > img {
-    width: 50%;
-    min-width: 150px;
-    max-width: 300px;
-    height: 100%;
-    border-radius: 30%;
-} */
+.GDGocimage > img {
+    width: 10%;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
